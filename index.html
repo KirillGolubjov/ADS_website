@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AdsFuel Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="big-container">
+        <nav class="nav">
+          <ul class="menu-list menu-left">
+            <li class="menu-item">
+              <a class="lng-menu-link-1" href="#home">Home</a>
+            </li>
+            <li class="menu-item">
+              <a class="lng-menu-link-2" href="#about">About</a>
+            </li>
+            <li class="menu-item">
+              <a class="lng-menu-link-3" href="#service">Services</a>
+            </li>
+            <li class="menu-item">
+              <a class="lng-menu-link-4" href="#info">Write us</a>
+            </li>
+            <li class="menu-item">
+              <a class="lng-menu-link-5" href="#contacts">Contacts</a>
+            </li>
+            <!-- 
+            <li class="menu-item">
+              <select class="lng-menu-link-6">
+                <option value="en">Eng</option>
+                <option value="ru">Rus</option>
+              </select>
+            </li> -->
+          </ul>
+
+          <ul class="menu-list menu-right">
+            <li class="menu-item">
+              <select class="lng-menu-link-6">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <div class="big-container">
+          <div class="promo__inner">
+            <h1 class="title"></h1>
+          </div>
+          <!-- <h2 class="subtitle">
+            ADVERTISING NETWORK
+            <span>Nikolay Hodorkovsky</span>
+          </h2>
+          <p class="promo__text">Lorem, ipsum.</p> -->
+        </div>
+      </section>
+      <section class="info" id="about">
+        <div class="container">
+          <div class="info__part info__part--first">
+            <h2 class="lng-info__title">
+              AdsFuel Market is an online platform for advertising campaigns on
+              the Internet.
+            </h2>
+            <div class="info__part-textbox">
+              <p class="lng-info__text-1">
+                For AdsFuel Market, helping our customers and partners succeed
+                is extremely important. Our passionate and experienced team
+                successfully implements ideas and strategies. Before launching
+                each advertising campaign, we will understand the task at hand
+                in detail!
+              </p>
+              <b class="lng-info__text-2"
+                >Our team monitors trends in the market and improves in order to
+                always meet the needs of our customers. AdsFuel Market uses
+                popular advertising formats on the market, constantly improving
+                TDS system with wide possibilities of targeting and
+                optimization.</b
+              >
+            </div>
+            <img class="info__part-img" src="/images/info_img1.png" alt="" />
+          </div>
+          <div class="info__part info__part--second">
+            <div class="info__content">
+              <h3 class="lng-info__title">WHY US?</h3>
+              <p class="lng-info__text-3">
+                For AdsFuel Market, helping our customers and partners succeed
+                is extremely important. Our passionate and experienced team
+                successfully implements ideas and strategies. Before launching
+                each advertising campaign, we will understand the task at hand
+                in detail!
+              </p>
+              <p class="lng-info__text-4">
+                Our team monitors trends in the market and improves in order to
+                always meet the needs of our customers. AdsFuel Market uses
+                popular advertising formats on the market, constantly improving
+                TDS system with wide possibilities of targeting and
+                optimization.
+              </p>
+            </div>
+            <img
+              class="info__part-img img-2"
+              src="images/info_img2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="services" id="service">
+        <div class="container">
+          <div class="services__inner">
+            <h3 class="lng-services__title">SERVICES</h3>
+            <h4 class="lng-services__subtitle-1">One Service</h4>
+            <p class="lng-services__text-1">
+              Our team monitors trends in the market and improves in order to
+              always meet the needs of our customers. AdsFuel Market uses
+              popular advertising formats on the market, constantly improving
+              TDS system with wide possibilities of targeting and optimization.
+            </p>
+            <h4 class="lng-services__subtitle-2">One Service</h4>
+            <p class="lng-services__text-2">
+              Our team monitors trends in the market and improves in order to
+              always meet the needs of our customers. AdsFuel Market uses
+              popular advertising formats on the market, constantly improving
+              TDS system with wide possibilities of targeting and optimization.
+            </p>
+            <h4 class="lng-services__subtitle-3">One Service</h4>
+            <p class="lng-services__text-3">
+              Our team monitors trends in the market and improves in order to
+              always meet the needs of our customers. AdsFuel Market uses
+              popular advertising formats on the market, constantly improving
+              TDS system with wide possibilities of targeting and optimization.
+            </p>
+
+            <img class="services__img" src="/images/info_img3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="info">
+        <div class="container">
+          <div class="contact-inner">
+            <form
+              class="contact-form"
+              id="form"
+              name="form"
+              action="#"
+              onsubmit="event.preventDefault(); checkForm();"
+            >
+              <h2 class="lng-contact-title">Leave your request</h2>
+              <div>
+                <select
+                  name="contact-account"
+                  class="contact-input"
+                  id="contact-account"
+                >
+                  <option value="" selected disabled class="lng-account-type-1">
+                    Account type
+                  </option>
+                  <option value="Advertiser" class="lng-account-type-2">
+                    Advertiser
+                  </option>
+                  <option value="Webmaster" class="lng-account-type-3">
+                    Web master
+                  </option>
+                </select>
+                <span class="span" id="account-error"></span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Full Name"
+                  id="contact-name"
+                />
+                <span class="span" id="name-error"></span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Phone Number"
+                  id="contact-phone"
+                />
+                <span class="span" id="phone-error"></span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="E-mail"
+                  id="contact-email"
+                />
+                <span class="span" id="email-error"></span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="URL"
+                  id="contact-url"
+                />
+                <span class="span" id="url-error"></span>
+              </div>
+
+              <div class="input-group">
+                <button type="submit" id="button" class="lng-button">
+                  SEND
+                </button>
+                <span class="span2" id="submit-error"></span>
+              </div>
+              <span class="span3" id="submit-ok"></span>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <h3 class="lng-footer__title">Contacts</h3>
+        <div class="footer__top">
+          <ul class="footer__info">
+            <li class="footer__info-item">
+              <dl>
+                <dt class="lng-general">General</dt>
+                <dd>AdsFuel Market OÜ</dd>
+                <dd><a href="tel:+3725511168"></a>+(372) 55 111 68</dd>
+                <dd>
+                  <a href="mailtto:info@adsfuel.market">info@adsfuel.market</a>
+                </dd>
+              </dl>
+            </li>
+            <li class="footer__info-item">
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a class="social-list__link" href="#">
+                    <img
+                      class="social-list__icon"
+                      src="images/youtube.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="#">
+                    <img
+                      class="social-list__icon"
+                      src="images/instagram.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="#">
+                    <img
+                      class="social-list__icon"
+                      src="images/facebook.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer__address">
+            <p class="lng-footer__address-title">Address</p>
+            <address class="lng-footer__address-text">
+              Parda 4, Tallinn, Estonia
+            </address>
+            <div id="map"></div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <a class="footer__bottom-link" href="#">©2022 adsfuel.market</a>
+        </div>
+      </div>
+    </footer>
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script> -->
+    <script src="js/form.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/lang.js"></script>
+  </body>
+</html>
